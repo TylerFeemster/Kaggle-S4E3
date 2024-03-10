@@ -1,4 +1,6 @@
 python
+jupyter
 pandas
 numpy
 scikit-learn
+xgboost
