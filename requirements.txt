@@ -3,5 +3,7 @@ jupyter
 pandas
 numpy
 scikit-learn
+joblib
 xgboost
 matplotlib
+seaborn
