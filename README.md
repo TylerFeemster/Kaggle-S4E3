@@ -25,9 +25,19 @@ We create many features and observe feature importances for XGB and RF models.
 
 **engineering.py**
 
-This is a module that holds our feature generating function. To make optimization easier, there's an optional input for columns to drop. 
+This is a module that holds our feature generating function. To make optimization easier, there's an optional input for columns to drop.
 
 **RFOptimizing.ipynb**
+
+
+
 **XGBOptimizing.ipynb**
+
+
+
 **EnsembleOptimizing.ipynb**
+
+
+
 **Submission.ipynb**
+
