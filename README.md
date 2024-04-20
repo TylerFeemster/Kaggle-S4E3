@@ -2,13 +2,6 @@
 
 
 
-
-
-
-
-
-
-
 ## Files
 
 **EDA.ipynb**
@@ -21,7 +14,7 @@ Here, I analyze the performance of XGBoost with 5-fold CV before doing any featu
 
 **FeatureGenerating.ipynb**
 
-We create many features and observe feature importances for XGB and RF models.
+I create many features and observe feature importances for XGB and RF models.
 
 **engineering.py**
 
@@ -29,15 +22,16 @@ This is a module that holds our feature generating function. To make optimizatio
 
 **RFOptimizing.ipynb**
 
-
+I remove detrimental features from a Random Forest model and use optuna for hyperparameter selection.
 
 **XGBOptimizing.ipynb**
 
-
+I remove detrimental features from an XGBoost model and use optuna for hyperparameter selection.
 
 **EnsembleOptimizing.ipynb**
 
-
+With 5-fold CV, I predict logits from RF and XGB models. I use a dense linear range of weights to find the optimal RF-XGB ratio for logit averaging.
 
 **Submission.ipynb**
 
+I use the optimal logit weights to create a final submission with the testing dataset.
